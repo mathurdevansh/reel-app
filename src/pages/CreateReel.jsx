@@ -1,4 +1,4 @@
-import React, { useState, useRef } from 'react';
+import React from 'react';
 import { GEN_STEPS, REEL_COLORS, STYLE_OPTIONS, PLATFORM_OPTIONS, VOICE_OPTIONS } from '../data/constants';
 
 const CreateReel = ({ credits, onReelCreated, onToast }) => {
